@@ -14,7 +14,7 @@ The library-server uses [arquillian](http://arquillian.org/) as test-framework, 
 
 With a integrated wildfly-plugin you can run an appication-server:
 ```
-./mvnw package -P run-server
+./mvnw clean package -P run-server
 ```
 The server is started in the context of maven. To stop the server cancel the build (crtl+c).
 
@@ -22,4 +22,3 @@ With a running server the library-client can also be started with:
 ```
 ./mvnw package -P run-client
 ```
-# reference-architectures-and-patterns
