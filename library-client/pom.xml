@@ -19,6 +19,7 @@
             <groupId>de.h_da.library</groupId>
             <artifactId>library-server</artifactId>
             <version>${project.parent.version}</version>
+            <classifier>classes</classifier>
         </dependency>
         <dependency>
             <groupId>org.wildfly</groupId>

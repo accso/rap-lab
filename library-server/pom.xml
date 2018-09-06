@@ -96,6 +96,7 @@
             <version>2.3</version>
             <configuration>
                 <failOnMissingWebXml>false</failOnMissingWebXml>
+                <attachClasses>true</attachClasses>
             </configuration>
         </plugin>
     </plugins>
@@ -139,6 +140,7 @@
                         <version>2.3</version>
                         <configuration>
                             <failOnMissingWebXml>false</failOnMissingWebXml>
+                            <attachClasses>true</attachClasses>
                         </configuration>
                     </plugin>
                     <!-- Tests ausführen; Kann auch mit failsafe-Plugin für Integrationstests geschehen. -->
